@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.flex-container
+{
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+
+}
+
+.flex-container2
+{
+    display: flex;
+    gap:220px;
+    align-items: flex-end;
+
+}
+.yellow
+{
+  color: yellow;
+}
+
+.imgian
+{
+  height: 300px;
+  width: 200px;
+  gap: 40px;
+  justify-items: center;
+}
+
+#fff
+{
+  width:105px;
+  height:50px;
+}
+
+.imgian-year
+{
+  font-family: "Noto Sans", sans-serif;
+  font-size: small;
+  color: #666666;
+
+}
+
+
+.rishiraj
+{
+  width: 286px;
+  height: 423px
+
+}
+.anshika
+{
+  width: 220px;
+  height: 345px
+
+}
+.gauri
+{
+  width: 232px;
+  height: 376px
+
+}
+
+.akhil
+{
+  width: 302px ;
+  height: 450px ;
+}
+
+.noble
+{
+  width: 434px ;
+  height: 466px ;
+}
+
+
+
+.banner-characters
+{
+  
+  /* background-color: #5183B8; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+ 
+   /* Set the opacity to make it semi-transparent */
+}
+
+.imgian-info
+{
+  padding: 10px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+.ball
+{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+
+}
+body
+{
+   background: fixed;
+   font-family: 'Lato', sans-serif;
+}
+.iitr-logo
+{
+    width: 400px;
+    height: 70px;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the left and right */
+    
+    
+}
+
+/* CSS for the left and right items */
+.hindi-english
+{
+    width: 100px;
+    height: 50px;
+}
+.padded
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categories
+{
+    color: #4C4C4C;
+}
+.info
+{
+    color: #333333;
+}
+   
+
+
+.banner
+{
+    overflow: hidden;
+    padding: 50px;
+    background-color: #5183B8;
+    color: white;
+
+}
+/* image 13 */
+.image-13{
+position: absolute;
+width: 40px;
+height: 345px;
+left: 620px;
+top: 710px;
+background: url(image.png);
+}
+.symbol
+{
+    width:15px;
+    height: 15px
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 8px 9px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: wheat;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  a
+  {
+    padding: 2px;
+  }
+
+  
