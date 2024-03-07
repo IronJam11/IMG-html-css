@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 .flex-container
 {
     display: flex;
@@ -13,6 +14,12 @@
     gap:220px;
     align-items: flex-end;
 
+}
+.central-picture
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .yellow
 {
@@ -46,8 +53,11 @@
 
 .rishiraj
 {
+  align-items: center;
+  justify-content: center;
   width: 286px;
-  height: 423px
+  height: 423px;
+  justify-content:center ;
 
 }
 .anshika
@@ -66,13 +76,13 @@
 .akhil
 {
   width: 302px ;
-  height: 450px ;
+  height: 465px ;
 }
 
 .noble
 {
-  width: 434px ;
-  height: 466px ;
+  width: 439px ;
+  height: 476px ;
 }
 
 
@@ -99,7 +109,15 @@
   justify-content: center;
   
 }
+.grid-container-imgians
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;/* Three equal columns */
+  grid-gap: 10px; /* Gap between grid items */
+  align-items: flex-end;
 
+
+}
 
 
 
@@ -194,99 +212,90 @@ background: url(image.png);
     height: 15px
 }
 
-
-
+.burger-image
+{
+  height: 40px;
+  width: 40px;
+}
 .navbar {
-    overflow: hidden;
-    color: black;
-    background-color: white;
-    font-family: Arial;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: black;
-    text-align: center;
-    padding: 8px 9px;
-    text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: wheat;
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  color: black;
+  padding: 0px;
+}
 
 
-  @media (max-width: 768px) {
-    .navbar  {
-      display: none; /* Hide the menu items by default */
-      background-color: red;
-    }
-  
-    .menu-icon {
-      display: block; /* Show the menu icon */
-    }
-  
-    /* Show the menu items when menu icon is clicked */
-    .menu-icon.active + ul {
-      display: flex;
-    }
-  }
 
-  a
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-menu li {
+  margin-right: 10px;
+}
+
+.navbar-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .grid-container
   {
-    padding: 2px;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  
   }
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navbar-menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
+
+
+
+
+
+a
+{
+    padding: 2px;
+}
 
 .end
 {
@@ -337,3 +346,76 @@ background: url(image.png);
   flex-direction: row;
 }
 
+
+@media screen and (max-width: 768px) {
+  .flex-container2 .flex-container {
+    flex-basis: 100%; /* Set to 100% width on smaller screens */
+  }
+
+
+  .grid-container-imgians
+  {
+    
+  grid-template-columns: 1fr;
+  }
+
+  .background-blue
+  {
+    background-color: white;
+   
+  }
+  .background-blue2
+  {
+    background-color: white;
+  }
+
+}
+
+
+.background-blue
+{
+  
+  position: absolute;
+  height: 240px;
+  background-color: #5183B8;
+  width: 100vw;
+  z-index: -1;
+ 
+
+}
+.background-blue2
+{
+  
+  position: absolute;
+  padding-top: 18px;
+  height: 272px;
+  background-color: #5183B8;
+  width: 100vw;
+  z-index: -1;
+ 
+
+}
+
+.foreground
+{
+  
+  position: relative;
+  z-index: 1;
+  
+  
+        
+}
+
+
+.container-background-blue
+{
+  position: relative;
+
+
+}
+
+.flex-center
+{
+  display: flex;
+  align-self: center;
+}

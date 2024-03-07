@@ -1,3 +1,20 @@
+document.getElementById('navbar-toggler').addEventListener('click', function() {
+  var menu = document.getElementById('menu');
+  if (menu.style.display === 'block') {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = 'block';
+  }
+});
+
+
+
+
+
+
+
+
+
 const de1 = document.getElementById('des-1-image');
 
 de1.addEventListener('mouseover', function() {

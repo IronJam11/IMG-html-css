@@ -1,0 +1,15 @@
+  <div class="navbar padded">
+        <a href="#home">INSTITUTE <img class="symbol"src="./down-arrow.png" alt="nothing" /> </a> 
+        <a href="#news">ADMISSION <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+        <a href="#news">ACADEMICS <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+        <a href="#news">CAMPUS LIFE <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+        <a href="#news">DEPARTMENTS <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+        <a href="#news">RESEARCH <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+        <a href="#news">CAREERS <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+        <a href="#news">PLACEMENTS <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+        <a href="#news">RESOURCES <img class="symbol"src="./down-arrow.png" alt="nothing" /></a>
+
+
+        
+   
+        </div>
