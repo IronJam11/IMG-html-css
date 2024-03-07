@@ -17,6 +17,8 @@
 .yellow
 {
   color: yellow;
+  border: 2px solid yellow; /* 2px thick solid yellow border */
+  width: 100%; 
 }
 
 .imgian
@@ -115,7 +117,7 @@ body
 }
 .iitr-logo
 {
-    width: 400px;
+    width: 430px;
     height: 70px;
 }
 .container {
@@ -131,6 +133,27 @@ body
     width: 100px;
     height: 50px;
 }
+
+.top-right
+{
+  display: flex;
+  align-items: center;
+  gap:4px;
+}
+
+.box1 {
+  
+  border: 2px solid #1A76BB;
+  padding: 1px; /* Space inside the border */
+  color: #1A76BB;
+}
+.box2 {
+  border: 2px solid #1A76BB;
+  padding: 1px; /* Space inside the border */
+  color: white;
+  background-color: #1A76BB;
+}
+
 .padded
 {
     padding-left: 20px;
@@ -243,9 +266,74 @@ background: url(image.png);
     display: block;
   }
 
+
+  @media (max-width: 768px) {
+    .navbar  {
+      display: none; /* Hide the menu items by default */
+      background-color: red;
+    }
+  
+    .menu-icon {
+      display: block; /* Show the menu icon */
+    }
+  
+    /* Show the menu items when menu icon is clicked */
+    .menu-icon.active + ul {
+      display: flex;
+    }
+  }
+
   a
   {
     padding: 2px;
   }
 
+.end
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Three equal columns */
+  grid-gap: 10px; /* Gap between grid items */
+  
+}
+
+.grid-item
+{
+  justify-content: center;
+  text-align: center;
+}
+
+#map
+{
+  width: 240px;
+  height: 113px;
+}
+
+.left
+{
+  justify-content: left;
+}
+
+.grey-rectangle
+{
+  width:272px ;
+  height: 184px;
+  background-color: #C4C4C4;
+}
+
+.dil
+{
+  width: 14px;
+  height: 14px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+

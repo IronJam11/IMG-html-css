@@ -42,3 +42,48 @@ de3.addEventListener('mouseover', function() {
 de3.addEventListener('mouseout', function() {
   de3.src = "https://s3-alpha-sig.figma.com/img/c7f9/f86c/7e25923af29cba8337d718d4afc509a6?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vwv5Jh~bVeC3lc3PkP9bf839gz~Sgp7NmBzJE-O6dStq0VgD68pSKmE10hazsRsfaHjqJvUuVhLR3RU0vD7zqlg9-Mo69RWGCjkoWhFUsM8yuktP54OUCkOofErvXwaqm9t2G3Jnp6WcxXO0kHqrcjOy~ITf6Rts9SyG6lJ84pLeEKYgI9hhISKnF6h9ssmu5HBto~k4-Rvx6k3YbBFNCcHzWEWMAndsl3cOLQ3x-JtRr1JoG4REEkFviQG4UtdTxXUY9wfios855GL14n9lXNqO1a1X-EEi8tACobmt8yqfzNsjFP~9gFDPNcxMA9AJxxHwfemFJjGyeVOx-9vNjQ__";
 });
+
+
+
+
+
+const de4 = document.getElementById('dev-1-image');
+
+de4.addEventListener('mouseout', function() {
+  de4.src = "https://s3-alpha-sig.figma.com/img/2539/ef09/9f054bbc92320aeb5f8015dee63685bc?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZmUYfIkG-sfOfr~Ki8sj6CBXXBClSSeiH9T7Lxp3NwJ9-bQ3QolL9nMCwv200RavSyBXWXXjAcCykwFyFuqEWXbBBK~TWCNj6bFxGbzggxWMHMpCc8xusF1SVLWtZdRZ5JyTQfsbvTcUI~HuBjPmOJqdE6mEwUcFhHz5LD8F1GyXivHb4zTizcwwUUfY4bziMlbXJyjWOj3cVit-2tPICT~T1AtnpcjOVKSrmlw-afX864PVYDDNBXUnofw8f3Shm0zDMU-xDpKdhZYAE19PHRgk16qtxjcuNt7TXmsQdKCcwYQqNZ7cmSDA~wuDYbwge51j~q0hJgFkr4j8Rfnyhg__";
+});
+
+de4.addEventListener('mouseover', function() {
+  de4.src = 'https://s3-alpha-sig.figma.com/img/1f3f/c9c8/06ce847eb5f8f5f37d66e7b8900a45e3?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZdzF6vV9MNDk-uFvYBhGdNqgHwOfPQpH-R5cZSbprBNgh3p0oq1KDCO5ZdZ6HJisUxC98mL7MkmvbDB2Hc0TJlkfVw0gTV9egqLHq2L2we7Z4yzwLbdBTuQFGEqGzEuidTbVl7XlUvQ7TvGZt927b8AroOQd0ND8uNBbLADadc1ETXbJRF04H9JqniHvR9BPgDMXFl2Nut5cimAfGdG4koiDFYlM9JkXj9TF2IkgVL9sm4f7ZakDHxtlDuwRRrkftxglIEyJIXUoOjQIMHh263a9gWjCfki8qD9whUOPF-qupSQu5QE5SE5EpmvAnvlOaz8t2g8HEARFSZzTC9Up8A__';
+});
+
+
+
+const de5 = document.getElementById('dev-2-image');
+
+de5.addEventListener('mouseout', function() {
+  de5.src = "https://s3-alpha-sig.figma.com/img/552f/459f/29726dacab282ce27832449e5f8d2ba8?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R79ChrP6gBwbrsc-0kCselQKscin33nFQKdLoD3zUDiiXmlPufw4qhtPSm~Sw1amA~mti-Lsu60hZlCkKsoQeLjprMVHo8yST1aIHh5BwsFpwhYAXhbBE1fF5bdUOKS40Aekx1V8CH0jUxkW~cXQjNFiAkBbHynSlleBrqsRfSN8HXTrjHMyMJ9nhBHBIV98FTcAtKCkUYOilrRtiFIGPCtRs6reOlpRD0xucOaCmbTZNWd~iKYXPqVQlnZdGSEDgkqMCjO0XoK1fg9hwjxc3HKhchBdpnks6o2zcLCZ46VDKzauTMmIDmjizENdsWTAqbeKq7cgeXPONK~uYySnmA__";
+});
+
+de5.addEventListener('mouseover', function() {
+  de5.src = 'https://s3-alpha-sig.figma.com/img/ebed/b378/8736efba3f1ec1ac770f6ecc9ff3c41e?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fC9-W2f-vHaUNqKtByunGSAuaIrdlo0dMTniU4pskwU4wBoPftPo7KTB0uXqB179hEGvRzkd8laSA4KlqCLz6zEaX3ZhPBKOCTgU4qgywCvMJv3iSfcWLGlbFYFwGgUpk1R-GKx~moatDinNgRt8kWJGzWxdmOaib1VCPmEPVBuA0DI3nOlg7yWpUnLGWHThJnfz85zElcWdX4n3zB2B8ZW9cCdmdWvHPrrjEGljbrZyBl-mZ4MjTFh-KUUBYcGhd5SUGXt0qnUs-yljYW1rPDpWKTaTaoaCiYaHj62yLdSn5wRrZyeFgsePw-KqcKOH9cBslDzAApaA0pxpLsKJSA__';
+});
+
+const de6 = document.getElementById('dev-3-image');
+
+de6.addEventListener('mouseout', function() {
+  de6.src = "https://s3-alpha-sig.figma.com/img/aaea/c1f5/78fcd4b7d9392ad784dffbb535036f08?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KNaDuDXliTVpMsxOMW~ds70WwJYyi-IeD~VbQrkJSaoVCwlCqZmY6yPIc2QMKNB8jl4XPWlJP9efafZcl0H1XuKeXhMkGrKH1Rdu~T0iLlmCnnGK~sX6MB3LNPevAYMw47ITv5aHiQChBnOMWmLdRNEvh4Qm0EVqyQN0~9JRKlw9RGzSNzlxn0UlFJtAWh9hqn9EfmtklIbf1xOe6D2~VyaQ9Imk8GNI14nv793LtLNaWrBednCr2PmbCdk9ZrOMo2vsSSTlWeMkW8JOQ1Lt5RLKfilBC1Yx-hhUT7g1YVfPiE9H3rLSkGuIDjsz75t1uJgeFNE-~qGyjO9ye5MdqQ__";
+});
+
+de6.addEventListener('mouseover', function() {
+  de6.src = 'https://s3-alpha-sig.figma.com/img/1d66/11ec/bf8c931fa82955ee3e6589d8dc2bc3ce?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ClmbI~R1c900BQt8DbWMC7ElDuIj~ceM7SpRITz0y~rQqzQ-tkysXju8lG61pXMuna7Wz97HAlr5gxaeh4qIIEgqCGvreCSmiwy7S3ZmXbVVFaO46Q4-jaar3CA4w4D-fzhUv6nT2nfkfKbTWw7K970kT8pIHlZIdk3ihuZ378yhZNww1o1MyEc0vYx6rggBj9aJ3dUisAmxElu4SH8pjz8QKXkTFUbDO6-X5R~L4xGzOnyMFTKUopmxjXzWaX~RT0x6XoHj2sL09ZzBf6LuLA06gQ9xFxaYfpJln485rVjnBze0J8DjH0UpWvRRfKqRn651RGmbjd62eC21x1tdZQ__';
+});
+
+
+
+    
+      document.querySelector('.menu-icon').addEventListener('click', function() {
+        this.classList.toggle('active');
+      });
+
+
